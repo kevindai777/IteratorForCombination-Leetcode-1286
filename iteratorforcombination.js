@@ -4,8 +4,9 @@
 //'hasNext' will return if there is a next combination
 
 
-//O(n!) solution that gets all combinations of the characters of given length first,
-//then sorts and iterates through them
+//O(2^N * N) solution, where N is the length of the string
+//We get all combinations of the characters of given length first,
+//then sort and iterate through them
 
 class CombinationIterator {
     constructor(characters, combinationLength) {
